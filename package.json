@@ -5,10 +5,7 @@
   "author": "Ryan Carniato",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "main": "lib/index.js",
-  "scripts": {
-    "prepublish": "coffee --compile --bare --no-header --output lib/ src/"
-  },
+  "main": "index.js",
   "dependencies": {
     "@webcomponents/shadydom": "^1.0.4",
     "@webcomponents/template": "^1.0.0",
