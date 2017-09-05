@@ -1,0 +1,20 @@
+{
+  "name": "component-register-platform",
+  "description": "A set of shims and polyfills to support legacy browsers",
+  "version": "0.0.1",
+  "author": "Ryan Carniato",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "coffee --compile --bare --no-header --output lib/ src/"
+  },
+  "dependencies": {
+    "@webcomponents/shadydom": "^1.0.4",
+    "@webcomponents/template": "^1.0.0",
+    "@webcomponents/webcomponents-platform": "^1.0.0",
+    "document-register-element": "1.x",
+    "es6-promise": "^4.1.1",
+    "es6-symbol": "^3.1.1"
+  }
+}
